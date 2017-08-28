@@ -1,5 +1,5 @@
 {
-	"key": "<YOUR APPLICATION EXTENSION KEY HERE>",
+	"key": "a11fd8af-6b03-4079-85d4-352c5ac80c0e",
 	"metaData": {
 		"icon": "images/icon.png",
 		"iconSmall": "images/icon_small.png"
@@ -13,27 +13,24 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "<YOUR APPLICATION EXTENSION KEY HERE>",
+		"applicationExtensionKey": "a11fd8af-6b03-4079-85d4-352c5ac80c0e",
 		"save": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/save",
+			"url": "https://ocsc--orlandocitysc-cs65-force-com-uo9jpjl1s7gd.runscope.net/restapi/services/apexrest/test_save",
 			"verb": "POST",
 			"body": "",
-			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"useJwt": false
 		},
 		"publish": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/publish",
+			"url": "https://ocsc--orlandocitysc-cs65-force-com-uo9jpjl1s7gd.runscope.net/restapi/services/apexrest/test_publish",
 			"verb": "POST",
 			"body": "",
-			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"useJwt": false
 		},
 		"validate": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/validate",
+			"url": "https://ocsc--orlandocitysc-cs65-force-com-uo9jpjl1s7gd.runscope.net/restapi/services/apexrest/test_validate",
 			"verb": "POST",
 			"body": "",
-			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"useJwt": false
 		}
 	},
 	"wizardSteps": [
@@ -42,18 +39,18 @@
 	"outcomes": [
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 1>"
+				"branchResult": "branchResult1"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 1>"
+				"label": "label1"
 			}
 		},
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 2>"
+				"branchResult": "branchResult2"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 2>"
+				"label": "label2"
 			}
 		}
 	],
@@ -69,18 +66,17 @@
 		"execute": {
 			"inArguments": [],
 			"outArguments": [],
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/execute",
+			"url": "https://ocsc--orlandocitysc-cs65-force-com-uo9jpjl1s7gd.runscope.net/restapi/services/apexrest/test_arg",
 			"verb": "POST",
 			"body": "",
 			"header": "",
 			"format": "json",
-			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
+			"useJwt": false,
 			"timeout": 90000
 		}
 	},
 	"edit": {
-		"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/index.html",
+		"url": "https://sicredimktservice.herokuapp.com/index.html",
 		"height": 200,
 		"width": 500
 	}

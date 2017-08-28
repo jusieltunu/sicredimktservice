@@ -15,12 +15,12 @@
 	"options": {
 		"salesforce": {
 			"serviceCloud": {
-				"username": "<YOUR SERVICE CLOUD USERNAME>",
-				"password": "<YOUR SERVICE CLOUD PASSWORD>",
-				"loginUrl": "https://login.salesforce.com"
+				"username": "jusiel.tunu@sicredi.com.br.dev",
+				"password": "every@1234",
+				"loginUrl": "https://test.salesforce.com"
 			},
 			"marketingCloud": {
-				"jwtSecret": "<YOUR UNCONVERTED SALT KEY HERE>"
+				"jwtSecret": "hirk2gducsisxhre5lrqkym0f1tyzul0d1wi1rl42tqhdvc2nk0ekbaeajhjewpeq4farjtoazyj5jbmr5s4o3lkavlkopgbvki3w4grdqz0bvsgdfke32ir5mtjrydj0avoqzziqhiovezcuti2x4atmpgrfjvkwp0dnjpxbebyn2yu2vzq0153p5fgkdme3p50hrbe5zqg51vt3knfo2iat2u21douqq4hijhvkgw21031r0duhc5stpp0kao"
 			}
 		}
 	}
